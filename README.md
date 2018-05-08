@@ -1,6 +1,6 @@
 # DisparityMap
 
-Generates a depth map from 2 stereo images:
+Generates a depth map image as well as an image for ever step along the way from 2 stereo images:
  - SIFT to gather keypoints (completed)
  - Low thresholded Harris corner detector to filter edges (completed)
  - Taylor expansion around each keypoint for better accuracy (*optional)
