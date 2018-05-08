@@ -1,0 +1,40 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Author:         Ibrahim Sardar
+//  Class:          CSCI 557
+//  Filename:       Final.mpc
+//  Date:           04/29/2018
+//  Description:    MPC file for Computer Vision project final.
+//                  This file handles all dependencies for mwc.pl script to create a makefile
+//
+////////////////////////////////////////////////////////////////////////////////
+
+project (Final) {
+
+    exename = Final
+
+    Source_Files {
+        pnmio.cpp
+        matrix.cpp
+        llip.cpp
+        llfd.cpp
+        llis.cpp
+        sifter.cpp
+        depthmapper.cpp
+        main.cpp
+    }
+
+    Header_Files {
+        pnmio.h
+        matrix.h
+        llip.h
+        llfd.h
+        llis.h
+        sifter.h
+        depthmapper.h
+    }
+
+    specific (make) {
+        compile_flags += -std=c++11
+    }
+}
