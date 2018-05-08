@@ -10,3 +10,6 @@ Generates a depth map image as well as an image for ever step along the way from
  - Rectifies stereo images using the fundamental matrix
  - Computes disparity map from matching key points (completed)
  - Computes depth map from disparity map (depth = basline length * focal length / disparirty)
+
+### Disclaimer
+ - Matrix class by Github user "akalicki"
